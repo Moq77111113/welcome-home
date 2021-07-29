@@ -1,3 +1,11 @@
 .display-linebreak {
     white-space: pre-line;
   }
+.head {
+  display:flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.avatar {
+  margin-right: 20px;
+}

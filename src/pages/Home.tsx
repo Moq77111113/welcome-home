@@ -2,11 +2,10 @@ import {
   IonAvatar,
   IonCard,
   IonCardContent,
+  IonCardTitle,
   IonContent,
   IonHeader,
   IonItem,
-  IonList,
-  IonMenu,
   IonPage,
   IonText,
   IonTitle,
@@ -15,7 +14,6 @@ import {
 import React from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
 import { fixedLinks } from "../private/fixed.links";
-import { Menu } from "../components/menu";
 import "./Home.css";
 class Home extends React.Component<WithTranslation, {}> {
   render() {
@@ -35,15 +33,15 @@ class Home extends React.Component<WithTranslation, {}> {
             </IonToolbar>
           </IonHeader>
           <IonItem>
-            <IonAvatar slot="start">
-              <img src={fixedLinks.me} alt="me"/>
-            </IonAvatar>
             <IonCard>
-              <img
-                src={fixedLinks.home}
-                alt="home-img"
-              />
+              <img src={fixedLinks.home} alt="home-img" />
               <IonCardContent class="display-linebreak">
+                <div className="head">
+                  <IonAvatar className="avatar" slot="start">
+                    <img src={fixedLinks.me} alt="me" />
+                  </IonAvatar>
+                  <IonCardTitle>{t('pages.home.card-title')}</IonCardTitle>
+                </div>
                 {t("pages.home.text")}
               </IonCardContent>
             </IonCard>

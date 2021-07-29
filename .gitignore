@@ -27,4 +27,7 @@ yarn-error.log*
 # Optional eslint cache
 .eslintcache
 
+# private moq
 src/private
+android
+capacitor.config.ts
