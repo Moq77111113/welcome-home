@@ -1,0 +1,36 @@
+{
+    "tabs": {
+        "room": "La Chambre",
+        "refs": "Adresses",
+        "home": "Bienvenue"
+    },
+    "pages": {
+        "refs": {
+            "title": "Les adresses"
+        },
+        "room": {
+            "title": "La chambre"
+        },
+        "home": {
+            "title": "Bienvenue chez moi !",
+            "text": "Je vous accueille dans mon app T3 en rez de chaussé, dans une petite résidence de taille humaine, calme et sécurisée. \n\n Deux adorables chats partagent mon logement. \n \n Vous stationnez en dehors de la résidence sur des places qui sont gratuites. \n\n Votre chambre se compose d'un lit 160x200, une commode pour disposer            vos vêtements. La salle de bain, les sanitaires et le salon seront partagés La cuisine vous est accessible mais uniquement le frigo, la machine à café, le micro-ondes"
+        }
+    },
+    "menu": {
+        "title": "Bonjour !",
+        "pages": {
+            "airbnb": "Voir sur Airbnb",
+            "rules": "Règlement",
+            "whoami": "Les habitants"
+        }
+    },
+    "references": {
+        "kinds": {
+            "restaurant": "Restaurants",
+            "pub": "Bars",
+            "carousel": "Attractions",
+            "nature": "Nature",
+            "beach": "Plages"
+        }
+    }
+}

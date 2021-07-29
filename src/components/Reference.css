@@ -1,0 +1,21 @@
+.reference {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ion-card-title {
+   font-size: 30px;
+   font-weight: 700;
+}
+ion-card-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+}

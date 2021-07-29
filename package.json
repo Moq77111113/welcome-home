@@ -15,9 +15,13 @@
     "@types/react-dom": "^16.9.10",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
+    "i18next": "^20.3.5",
+    "i18next-browser-languagedetector": "^6.1.2",
     "ionicons": "^5.4.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.11.4",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
@@ -61,7 +65,8 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "3.1.2"
+    "@capacitor/cli": "3.1.2",
+    "@types/lodash": "^4.14.171"
   },
   "description": "An Ionic project"
 }
